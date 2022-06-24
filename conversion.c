@@ -121,7 +121,7 @@ char expand(char s1[], char *s2)
 }
 int main()
 {
-    char range[32];
-    expand("1-7", range);
+    char range[2];
+    expand("a-c", range);
     printf("value: %s\n", range);
 }
